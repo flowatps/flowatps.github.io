@@ -4,9 +4,9 @@ Potluck is a social gathering where people come together to share and enjoy a me
 
 ## Potluck hosted on
 ### 3/23
-* main-course
+1 main-course
  *[Not you avg eggs](guild-2-23/main-course/not-your-avg-eggs.md)
-* Dessert
+2 Dessert
  *[cinnamon-rol](guild-2-23/dessert/cinnamon-roll.md)
 
 ## How to Host a Potluck
