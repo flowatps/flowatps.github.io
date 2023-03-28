@@ -1,17 +1,22 @@
 name: Create Tag on Merge
 
 on:
-  push:
-    branch: "main"
+  pull_request:
+    types:
+      - closed
+    branches:
+      - master
 jobs:
-  create-tag:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
-      - uses: rickstaa/action-create-tag@v1
-        id: "tag_create"
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          tag: 'release-${{ github.sha }}'
-          tag_exists_error: false
-          message: "Latest release"
+    - uses: actions/checkout@v3
+      with:
+        ref: 'release-${{ github.sha }}'
+        fetch-depth: '0'
+
+    - name: Bump version and push tag
+      uses: anothrNick/github-tag-action@1.55.0 # Don't use @master unless you're happy to test the latest version
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        WITH_V: true
