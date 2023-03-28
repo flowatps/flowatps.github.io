@@ -1,20 +1,16 @@
 name: Create Tag on Merge
 
 on:
-  pull_request:
-    types: [closed]
-
+  push:
+    branch: "main"
 jobs:
-  tag_on_merge:
-    if: github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main'
+  create-tag:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Create Tag
-        uses: anothrNick/github-tag-action@v1.3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v3
+      - uses: rickstaa/action-create-tag@v1
+        id: "tag_create"
         with:
           tag: 'release-${{ github.sha }}'
-          message: 'New yummy'
+          tag_exists_error: false
+          message: "Latest release"
