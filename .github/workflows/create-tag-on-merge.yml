@@ -2,19 +2,21 @@ name: Create Tag on Merge
 
 on:
   pull_request:
-    types: [closed]
-
+    types:
+      - closed
+    branches:
+      - master
 jobs:
-  tag_on_merge:
-    if: github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main'
-    runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-22.04
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Create Tag
-        uses: anothrNick/github-tag-action@v1.3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag: 'release-${{ github.sha }}'
-          message: 'New yummy'
+    - uses: actions/checkout@v3
+      with:
+        ref: 'release-${{ github.sha }}'
+        fetch-depth: '0'
+
+    - name: Bump version and push tag
+      uses: anothrNick/github-tag-action@1.55.0 # Don't use @master unless you're happy to test the latest version
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        WITH_V: true
