@@ -9,6 +9,7 @@ Potluck is a social gathering where people come together to share and enjoy a me
  * [chicken tikka](guild-2-23/main-course/chicken-tikka.md)
 2. Dessert
  * [cinnamon-rol](guild-2-23/dessert/cinnamon-roll.md)
+ * [Vanilla](guild-2-23/dessert/Vanilla.md)
 
 ## How to Host a Potluck
 
