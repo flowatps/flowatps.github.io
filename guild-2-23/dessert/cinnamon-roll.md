@@ -1,5 +1,4 @@
 ---
-# Use YAML front matter to specify recipe metadata
 categories: desserts, baking, feel good, comfort food
 yields: 18 cinnamon rolls
 servings: 9
