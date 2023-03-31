@@ -5,7 +5,6 @@ servings: 9
 prep: 20 mins
 cook: 20 mins
 ---
-
 # Homemade Cinnamon Rolls
 
 Made from scratch, these soft, creamy cinnamon rolls will leave you feeling happy and satisfied, even on the coldest winter nights. Pour over a generous, sugary glaze for the warm, comforting snack you know you deserve!
