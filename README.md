@@ -11,6 +11,15 @@ Potluck is a social gathering where people come together to share and enjoy a me
  * [cinnamon-rol](guild-2-23/dessert/cinnamon-roll.md)
  * [Vanilla](guild-2-23/dessert/Vanilla.md)
 
+### 4/23
+1. main-course
+ * [Not you avg eggs](guild-2-23/main-course/not-your-avg-eggs.md)
+ * [chicken tikka](guild-2-23/main-course/chicken-tikka.md)
+2. Dessert
+ * [cinnamon-rol](guild-2-23/dessert/cinnamon-roll.md)
+ * [Vanilla](guild-2-23/dessert/Vanilla.md)
+ * [Name](guild4-20-23/name.md)
+
 ## How to Host a Potluck
 
 Hosting a potluck is easy and fun. Here are some steps to follow:
