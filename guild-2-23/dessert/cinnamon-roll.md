@@ -21,12 +21,14 @@ Made from scratch, these soft, creamy cinnamon rolls will leave you feeling happ
 - 3 tbsp [butter], softened
 - 3/4 cup [milk]
 - 1 [egg]
+- Let's test this out
 
 ### Filling
 
 - 1/2 cup [white sugar]
 - 1/2 cup [brown sugar]
 - 1 tbsp [ground cinnamon]
+- 1/4 cup [butter], softened
 
 ### Cream Cheese Frosting
 

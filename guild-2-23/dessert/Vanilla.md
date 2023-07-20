@@ -8,7 +8,7 @@
 - 1 vanilla bean, split and scraped
 - 6 large egg yolks
 - 1/4 teaspoon salt
-
+- Adding some content to check the diff
 ## Instructions:
 
 1. In a medium saucepan, combine the heavy cream, whole milk, sugar, vanilla bean seeds and pod, and salt. Heat the mixture over medium heat, stirring occasionally, until it comes to a simmer.
@@ -31,4 +31,5 @@
 
 10. Scoop and enjoy!
 
+11. - Adding some content to check the diff
 This recipe yields about 1 quart of vanilla ice cream.
